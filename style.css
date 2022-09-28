@@ -1,22 +1,15 @@
-h1{
-    font-weight: bold;
-    font-family: 'Times New Roman';
-    color: rgb(187, 134, 134);
-}
-p{
-    color: rgb(167, 167, 226);
-    size: 12;
-    font-family: 'Times New Roman';
-}
-body{
-    background: linear-gradient(135deg, rgb(48, 48, 48), rgb(0, 0, 0))
-}
 .hd1{
-    text-align: left;   
+    left: 0;
     color: rgb(187, 134, 134);
     font-weight: bold;
     font-size: 50px;
+    padding-right: 500px;
+    margin-left: 100px;
+    margin-right: auto;
 }
 .hd1:hover{
     color: pink;
+}
+body{
+    background-color: rgb(30, 30, 30);
 }
