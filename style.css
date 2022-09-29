@@ -74,7 +74,7 @@ a[href="contact.html"], a[href="projects.html"], a[href="test.html"]:hover{
     block-size: auto;
 }
 .div1{
-    background-color: rgb(33, 33, 33);
+    background-color:#34282C;
     height: auto;
     width: 200px;
 }
@@ -90,19 +90,28 @@ a[href="contact.html"], a[href="projects.html"], a[href="test.html"]:hover{
     width: 100%; /* Full width */
     background-color: #ddd; /* Grey background */
     border-radius: 2ppx;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 10px;
+    align-items: right;
   }
   
   .skills {
-    text-align: center; /* Right-align text */
-    margin: 0;
-    border: 0;
+    text-align: right; /* Right-align text */
     padding-top: 0px; /* Add top padding */
     padding-bottom: 0px; /* Add bottom padding */
     color: white; /* White text color */
   }
   
   /*.ht {width: 80%; background-color: #04AA6D;}  Green */
-  .css {width: 70%; background-color: #2196F3;} /* Blue */
-  .python {width: 65%; background-color: #f44336;} /* Red */
-  .project {width: 60%; background-color: #808080;} /* Dark Grey */
-  .russian {width: 90%; background-color: #808080;} /* Dark Grey */
+  .ht {width:70%; background-color: orange; border-radius: 5px; font-weight: bold; color: #34282C;}
+  .css {width: 70%; background-color: lightcoral; border-radius: 5px; font-weight: bold; color: #34282C;} /* Blue */
+  .python {width: 65%; background-color: coral; border-radius: 5px; font-weight: bold; color: #34282C;} /* Red */
+  .project {width: 60%; background-color: green; border-radius: 5px; font-weight: bold; color: #34282C;} /* Dark Grey */
+  .russian {width: 90%; background-color: lightgoldenrodyellow; border-radius: 5px; font-weight: bold; color: #34282C;} /* Dark Grey */
+
+  #percentage{
+    text-align: right;
+    padding-right: 200px;
+  } 
+  
