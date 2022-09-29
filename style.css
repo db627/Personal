@@ -6,12 +6,13 @@
     padding-top: 20px;
     padding-right: 500px;
     padding-left: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 30px;
     margin-right: auto;
     margin-top: 20px;
     margin-bottom: auto;
     margin-bottom: 50px;
     background-color:rgb(202, 202, 202) ;
+    /*background-image: url(https://thumbs.dreamstime.com/b/falling-digital-numbers-grey-background-abstract-binary-computer-code-falling-digital-numbers-grey-background-abstract-102612797.jpg);*/
 }
 .hd1:hover{
     color:rgb(102, 102, 102);
@@ -84,3 +85,24 @@ a[href="contact.html"], a[href="projects.html"], a[href="test.html"]:hover{
     margin-left: auto;
     margin-right: auto;
 }
+
+.container {
+    width: 100%; /* Full width */
+    background-color: #ddd; /* Grey background */
+    border-radius: 2ppx;
+  }
+  
+  .skills {
+    text-align: center; /* Right-align text */
+    margin: 0;
+    border: 0;
+    padding-top: 0px; /* Add top padding */
+    padding-bottom: 0px; /* Add bottom padding */
+    color: white; /* White text color */
+  }
+  
+  /*.ht {width: 80%; background-color: #04AA6D;}  Green */
+  .css {width: 70%; background-color: #2196F3;} /* Blue */
+  .python {width: 65%; background-color: #f44336;} /* Red */
+  .project {width: 60%; background-color: #808080;} /* Dark Grey */
+  .russian {width: 90%; background-color: #808080;} /* Dark Grey */
