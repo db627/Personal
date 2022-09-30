@@ -1,0 +1,37 @@
+.hd1{
+    left: 0;
+    color: rgb(57, 57, 57);
+    font-weight: bold;
+    font-size: 40px;
+    padding-top: 20px;
+    padding-right: 500px;
+    padding-left: 100px;
+    padding-bottom: 30px;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: auto;
+    margin-bottom: 50px;
+    background-color:rgb(202, 202, 202);
+}
+body{
+    background-color: #34282C;
+}
+nav{
+    margin-left: 100px;
+    margin-right: auto;
+
+}
+a[href="contact.html"], a[href="projects.html"], a[href="test.html"],a[href="homepage.html"]{
+    font-size: 20px;
+    color: pink;
+    padding: 15px;
+    text-decoration: none;
+    padding-top: 20px;
+}
+a[href="contact.html"], a[href="projects.html"], a[href="test.html"], a[href="homepage.html"]:hover{
+    color: rgb(255, 168, 183);
+    block-size: auto;
+}
+.name{
+    color: pink;
+}
