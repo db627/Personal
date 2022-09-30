@@ -35,3 +35,8 @@ a[href="contact.html"], a[href="projects.html"], a[href="test.html"], a[href="ho
 .name{
     color: pink;
 }
+.hmbt{
+    border: none;
+    background-color: grey;
+    padding: 3x;
+    }
