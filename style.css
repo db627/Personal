@@ -72,14 +72,14 @@ nav{
     margin-right: auto;
 
 }
-a[href="contact.html"], a[href="projects.html"], a[href="test.html"]{
+a[href="contact.html"], a[href="projects.html"], a[href="test.html"]a[href="homepage.html"]{
     font-size: 20px;
     color: pink;
     padding: 15px;
     text-decoration: none;
     padding-top: 20px;
 }
-a[href="contact.html"], a[href="projects.html"], a[href="test.html"]:hover{
+a[href="contact.html"], a[href="projects.html"], a[href="test.html"] a[href="homepage.html"]:hover{
     color: rgb(255, 168, 183);
     block-size: auto;
 }
@@ -114,11 +114,11 @@ a[href="contact.html"], a[href="projects.html"], a[href="test.html"]:hover{
   }
   
   /*.ht {width: 80%; background-color: #04AA6D;}  Green */
-  .ht {width:70%; background-color: orange; border-radius: 5px; font-weight: bold; color: #34282C;}
-  .css {width: 70%; background-color: lightcoral; border-radius: 5px; font-weight: bold; color: #34282C;} /* Blue */
-  .python {width: 65%; background-color: coral; border-radius: 5px; font-weight: bold; color: #34282C;} /* Red */
-  .project {width: 60%; background-color: green; border-radius: 5px; font-weight: bold; color: #34282C;} /* Dark Grey */
-  .russian {width: 90%; background-color: lightgoldenrodyellow; border-radius: 5px; font-weight: bold; color: #34282C;} /* Dark Grey */
+  .ht {width:70%; background-color: orange; border-radius: 20px; padding:6px; font-weight: bold; color: #34282C;}
+  .css {width: 70%; background-color: lightcoral; border-radius: 20px; padding:6px; font-weight: bold; color: #34282C;} /* Blue */
+  .python {width: 65%; background-color: coral; border-radius: 20px; padding:6px; font-weight: bold; color: #34282C;} /* Red */
+  .project {width: 60%; background-color: green; border-radius: 20px; padding:6px; font-weight: bold; color: #34282C;} /* Dark Grey */
+  .russian {width: 90%; background-color: lightgoldenrodyellow; border-radius: 20px; padding:6px; font-weight: bold; color: #34282C;} /* Dark Grey */
 
   #percentage{
     text-align: right;
@@ -129,4 +129,12 @@ a[href="contact.html"], a[href="projects.html"], a[href="test.html"]:hover{
     color: lightpink;
     border: black;
     border-width: 10px;
+  }
+  .nav-id{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+  }
+  br{
+    position: left;
   }
