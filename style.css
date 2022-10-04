@@ -14,79 +14,29 @@
     background-color:rgb(202, 202, 202) ;
     /*background-image: url(https://thumbs.dreamstime.com/b/falling-digital-numbers-grey-background-abstract-binary-computer-code-falling-digital-numbers-grey-background-abstract-102612797.jpg);*/
 }
-.nav{
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
+
+button,
+    #hmbt{
+    background-color: #3c2e33;
+    padding: 20px;
+    margin: 10px;
+    position: center;
+    margin-right: auto;
+    border: none;
+    border-radius: 15px;
 }
-.nav:hover{
-    color: rgb(132, 63, 63);
-    padding:0;
-    margin: 0;
+a[href]{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
 }
 .hd1:hover{
     color:rgb(102, 102, 102);
 }
 body{
     background-color: rgb(30, 30, 30);
-}
-.container{
-    height: 500px;
-    width: auto;
-    background: linear-gradient(180deg, rgb(71, 74, 74)
-    ,rgb(47, 35, 35));
-    border-radius: 5%;
-    opacity: 100%;
-}
-.form{
-    block-size: auto;
-    padding-left: 275px;
-}
-#center {
-    margin: auto;
-    width: 50%;
-    border: 3px solid black;
-    padding: 10px;
-    padding-left: 275px;
-  }
-.form {
-    text-align: center;
-    display: inline-block;
-    width: 200px;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    font-family:'Impact';
-    border-radius: 6px;
-}
-.div1{
-    align-items: center;
-    text-align: center;
-    font-family:'Impact';
-}
-.formhd1{
-    text-align: center;
-}
-nav{
-    margin-left: 100px;
-    margin-right: auto;
-
-}
-a[href="contact.html"], a[href="projects.html"], a[href="test.html"]a[href="homepage.html"]{
-    font-size: 20px;
-    color: pink;
-    padding: 15px;
-    text-decoration: none;
-    padding-top: 20px;
-}
-a[href="contact.html"], a[href="projects.html"], a[href="test.html"] a[href="homepage.html"]:hover{
-    color: rgb(255, 168, 183);
-    block-size: auto;
-}
-.div1{
-    background-color:#34282C;
-    height: auto;
-    width: 200px;
 }
 .container2{
     color: lightpink;
@@ -124,17 +74,6 @@ a[href="contact.html"], a[href="projects.html"], a[href="test.html"] a[href="hom
     text-align: right;
     padding-right: 200px;
   } 
-  header{
-    text-align: center;
-    color: lightpink;
-    border: black;
-    border-width: 10px;
-  }
-  .nav-id{
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-  }
   br{
     position: left;
   }
