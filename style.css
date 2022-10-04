@@ -14,7 +14,15 @@
     background-color:rgb(202, 202, 202) ;
     /*background-image: url(https://thumbs.dreamstime.com/b/falling-digital-numbers-grey-background-abstract-binary-computer-code-falling-digital-numbers-grey-background-abstract-102612797.jpg);*/
 }
+.welcome{
+    background-color: #3c2e33;
+    margin: 0 auto;
+}
+nav{
+    margin-left: 100px;
+    margin-right: auto;
 
+}
 button,
     #hmbt{
     background-color: #3c2e33;
