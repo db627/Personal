@@ -26,7 +26,8 @@ nav{
     margin-right: auto;
 
 }
-button{
+button,
+    #hmbt{
     background-color: #3c2e33;
     padding: 20px;
     margin: 10px;
