@@ -14,8 +14,8 @@
     background-color:rgb(202, 202, 202);
 }
 body{
-    /*background-color: #34282C;*/
-    background-color: aqua;
+    background-color: #34282C;
+    
 }
 nav{
     margin-left: 100px;
@@ -24,7 +24,6 @@ nav{
 }
 button{
     background-color: aqua;
-    text-decoration: none;
     padding: 20px;
     margin: 10px;
     position: center;
