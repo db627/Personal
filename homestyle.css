@@ -13,6 +13,10 @@
     margin-bottom: 50px;
     background-color:rgb(202, 202, 202);
 }
+.welcome{
+    background-color: #3c2e33;
+    margin: 0 auto;
+}
 body{
     background-color: #34282C;
     
@@ -23,10 +27,18 @@ nav{
 
 }
 button{
-    background-color: aqua;
+    background-color: #3c2e33;
     padding: 20px;
     margin: 10px;
     position: center;
     margin-right: auto;
     border: none;
+    border-radius: 15px;
+}
+a[href]{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
 }
