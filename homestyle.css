@@ -21,22 +21,12 @@ nav{
     margin-right: auto;
 
 }
-a[href="contact.html"], a[href="projects.html"], a[href="test.html"],a[href="homepage.html"]{
-    font-size: 20px;
-    color: pink;
-    padding: 15px;
+button{
+    background-color: aqua;
     text-decoration: none;
-    padding-top: 20px;
-}
-a[href="contact.html"], a[href="projects.html"], a[href="test.html"], a[href="homepage.html"]:hover{
-    color: rgb(255, 168, 183);
-    block-size: auto;
-}
-.name{
-    color: pink;
-}
-.hmbt{
+    padding: 20px;
+    margin: 10px;
+    position: center;
+    margin-right: auto;
     border: none;
-    background-color: grey;
-    padding: 3x;
-    }
+}
