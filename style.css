@@ -1,3 +1,4 @@
+/*
 .hd1{
     left: 0;
     color: rgb(57, 57, 57);
@@ -13,10 +14,57 @@
     margin-bottom: 50px;
     background-color:rgb(202, 202, 202) ;
     /*background-image: url(https://thumbs.dreamstime.com/b/falling-digital-numbers-grey-background-abstract-binary-computer-code-falling-digital-numbers-grey-background-abstract-102612797.jpg);*/
+    
+}
+*/
+
+.top{
+    margin: 0;
+    font-family:'Trebuchet MS';
+
+}
+.section{
+    background-color: rgb(202, 202, 202);
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    width: 60%;
+    padding-top: 20px;
+    padding-right: 500px;
+    padding-left: 100px;
+    padding-bottom: 30px;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    width: fit-content;
+}
+#hi{
+    padding-right: 50px;
+}
+.section img{
+    height: 50%;
+    padding-left: 100px;
+    padding-right: auto;
+}
+.section h3{
+    font-size: 20px;
+    font-family: 'Trebuchet MS';
+    color: #3c2e33;
+}
+.section h1{
+    margin: 0;
+    color: #3c2e33;
+    font-size: 50px;
+    font-weight: bold;
+}
+section p{
+    color: #34282C;
 }
 .welcome{
     background-color: #3c2e33;
     margin: 0 auto;
+    padding: auto;
+    text-align: center;
 }
 nav{
     margin-left: 100px;
@@ -32,6 +80,7 @@ button,
     margin-right: auto;
     border: none;
     border-radius: 15px;
+    margin-left: 100px;
 }
 a[href]{
     color: white;
@@ -85,3 +134,8 @@ body{
   br{
     position: left;
   }
+  a[href]:hover{
+    padding-left:21px;
+    padding-right: 21px;
+    transition-duration: 0.7s;
+}
