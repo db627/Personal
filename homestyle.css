@@ -1,3 +1,4 @@
+
 .hd1{
     left: 0;
     color: rgb(57, 57, 57);
@@ -12,6 +13,7 @@
     margin-bottom: auto;
     margin-bottom: 50px;
     background-color:rgb(202, 202, 202);
+    font-family: 'Trebuchet MS';
 }
 .welcome{
     background-color: #3c2e33;
@@ -37,9 +39,28 @@ button,
     border-radius: 15px;
 }
 a[href]{
-    color: white;
+    color: #FAF9F6;
     text-decoration: none;
     font-size: 15px;
     font-family: 'Trebuchet MS';
     font-weight: bold;
+}
+a[href]:hover{
+        padding-left:21px;
+        padding-right: 21px;
+        transition-duration: 0.7s;
+    }
+#about{
+        margin-left: 100px;
+        margin-right: auto;
+        color: #FAF9F6;
+        font-family: 'Trebuchet MS';
+    }
+#who, #abtex{
+    margin-left: 100px;
+    margin-right: auto;
+    text-align: left;
+    width: 50%;
+    font-family: 'Trebuchet MS';
+    color:#d2d2d2;
 }
