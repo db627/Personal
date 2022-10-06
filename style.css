@@ -14,10 +14,9 @@
     margin-bottom: 50px;
     background-color:rgb(202, 202, 202) ;
     /*background-image: url(https://thumbs.dreamstime.com/b/falling-digital-numbers-grey-background-abstract-binary-computer-code-falling-digital-numbers-grey-background-abstract-102612797.jpg);*/
-    
+*{
+    font-family:'Trebuchet MS';
 }
-*/
-
 .top{
     margin: 0;
     font-family:'Trebuchet MS';
