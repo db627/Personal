@@ -16,7 +16,9 @@
     font-family: 'Trebuchet MS';
 }
 */
-
+*{
+    box-sizing: border-box;
+}
 .top{
     margin: 0;
     font-family:'Trebuchet MS';
@@ -36,6 +38,7 @@
     margin-top: 20px;
     margin-bottom: 50px;
     width: fit-content;
+    overflow: hidden;
 }
 #hi{
     padding-right: 50px;
@@ -66,13 +69,11 @@ section p{
     text-align: center;
 }
 body{
-    background-color: #34282C;
-    
+    background-color: #34282C;   
 }
 nav{
     margin-left: 100px;
     margin-right: auto;
-
 }
 button,
     #hmbt{
@@ -96,6 +97,14 @@ a[href]:hover{
         padding-right: 21px;
         transition-duration: 0.7s;
     }
+a[href]:active{
+    color: #614b53;
+}
+a[href]:after{
+    padding-left:20px;
+    padding-right: 20px;
+    transition-duration: 0.7s;
+}
 #about{
         margin-left: 100px;
         margin-right: auto;
@@ -110,3 +119,4 @@ a[href]:hover{
     font-family: 'Trebuchet MS';
     color:#d2d2d2;
 }
+
