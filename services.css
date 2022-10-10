@@ -40,7 +40,7 @@ a[href]{
     font-weight: bold;
 }
 body{
-    background-color: rgb(30, 30, 30);
+    background-color:#34282C;
 }
 
   a[href]:hover{
@@ -49,10 +49,12 @@ body{
     transition-duration: 0.7s;
 }
 #services{
+    padding-left: 10px;
     display: flex;
     background-color: rgb(121, 146, 121);
     border-width: 1px;
     border: black;
+    padding-right: auto;
     
 }
 #services, h2{
@@ -64,4 +66,19 @@ p{
 h1{
     text-align: center;
     color: white;
+}
+#companies{
+    display: flex;
+    background-color: rgb(121, 146, 121);
+    border-width: 1px;
+    border: black;
+    padding-left: 10px;
+    padding-right: auto;
+}
+#companies, h2{
+    color: white;
+}
+#navbox{
+    background-color: #1a1416;
+    margin: 0;
 }
