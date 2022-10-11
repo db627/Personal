@@ -11,40 +11,46 @@
 
 <header style="text-align: center;">
     <div class="welcome">
-        <h1 style="color: pink;">Contact</h1>
+        
     </div>
     </header>
     
-        <nav>
-            <button type="button" class="hmbt" style="border: none; text-decoration: none; margin-left: auto; "><a href="homepage.html">Home</a></button>
-            <button type="button" class="hmbt" style="border: none; text-decoration: none; margin-left: 10px;"><a href="test.html">Resume</a></button>
-            <button type="button" class="hmbt" style="margin-left: 10px;"><a href="projects.html">Projects</a></button>
-            <button type="button" class="hmbt" ; style="margin-right: auto; margin-left: 10px;" style="position: center;"><a href="contact.html" style="color: white;" >Contact</a></button>
-        </nav>
+    <nav>
+        <button type="button" class="hmbt" style="border: none; text-decoration: none; margin-left: auto; "><a href="homepage.html">Home</a></button>
+        <button type="button" class="hmbt" style="border: none; text-decoration: none; margin-left: 10px;"><a href="test.html" style="color: white;">Resume</a></button>
+        <button type="button" class="hmbt" style="margin-left: 10px;"><a href="projects.html" style="color: white;">Projects</a></button>
+        <button type="button" class="hmbt" ; style="margin-right: auto; margin-left: 10px;" style="position: center;"><a href="contact.html" style="color: white;" >Contact</a></button>
+        <button type="button" class="hmbt" ; style="margin-right: auto; margin-left: 10px;" style="position: center;"><a href="services.html" style="color: white;" >Services</a></button>
+    </nav>  
         <!--<header class="heading"><h1>Contact Us:</h1></header>-->
-    <main>
-    </div>
-        <div class="div1">
-            <form class="form">
-            <div class="first-name">
-                <label for="Name">Name</label>
-                <input type="text" id="name" name="name" min="1" pattern="[ABCabc]">
+   
+
+        <body>
+            <div class="form-head">
+                <div class="form">
+                    <form class="newform">
+                        <h1>Contact:</h1>
+                    <div id="field">
+                        <label for="fname">First Name: </label>
+                        <input type="text" name="fname" id="fname">
+                    </div>
+                    <div id="field">
+                        <label for="lname">Last Name: </label>
+                        <input type="text" name="lname" id="lname">
+                    </div>
+                    <div id="field">
+                        <label for="email">Email: </label>
+                        <input type="text" name="email" id="email">
+                    </div>
+                    <div id="field">
+                        <label for="comments">Comments: </label>
+                        <textarea name="comments" id="comments" cols="20" rows="10"></textarea>
+                    </div>
+                    <div id="field">
+                        <label for="submit"></label>
+                        <input type="submit" name="sub" id="sub">
+                    </div>
+                    </form>
+                </div>
             </div>
-        <div class="last-name">
-            <label for="Last Name">Last Name</label>
-            <input type="text" id="lastname" name="lastname">
-        </div>
-        <div class="email">
-            <label for="Email">Email</label>
-            <input type="text" id="email" name="email">
-        </div>
-        <div class="textbox">
-            <textarea name="Comments" id="" cols="30" rows="10"></textarea>
-            <input type="button" value="submit">
-        </div>
-            </form>
-        </div>
-    </div>
-</main>
-    </body>
-</html>
+        </body>

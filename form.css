@@ -1,43 +1,6 @@
 body{
     background-color: rgb(30, 30, 30);
 }
-.container{
-    height: 500px;
-    width: auto;
-    background: linear-gradient(180deg, rgb(71, 74, 74)
-    ,rgb(47, 35, 35));
-    border-radius: 5%;
-    opacity: 100%;
-}
-.form{
-    block-size: auto;
-    padding-left: 275px;
-}
-#center {
-    margin: auto;
-    width: 50%;
-    border: 3px solid black;
-    padding: 10px;
-    padding-left: 275px;
-  }
-.form {
-    text-align: center;
-    display: inline-block;
-    width: 200px;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    font-family:'Impact';
-    border-radius: 6px;
-}
-.div1{
-    align-items: center;
-    text-align: center;
-    font-family:'Impact';
-}
-.formhd1{
-    text-align: center;
-}
 button,
     #hmbt{
     background-color: #3c2e33;
@@ -55,7 +18,48 @@ a[href]{
     font-family: 'Trebuchet MS';
     font-weight: bold;
 }
+nav{
+    margin-left: 100px;
+    margin-right: auto;
+
+}
 .welcome{
     background-color: #3c2e33;
     margin: 0 auto;
+}
+
+form{
+    font-family: 'Trebuchet MS';
+    font-size: 18px;
+    color: white;
+    background-color: rgb(14, 59, 75);
+    border: none;
+    border-radius: 100px;
+    text-align: center;
+    padding: 100;
+    width: auto;
+    margin: 20;
+    height: auto;
+    opacity: 100%;
+}
+#field{
+    color: rgb(255, 255, 255);
+
+}
+#sub{
+    background-color: #9f838d;;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: auto;
+}
+#fname, #lname, #email, #comments{
+    background-color: #9f838d;
+    border-width: 1px;
+    border-radius: 14px;
+    padding: 5px;
+    font-weight: bold;
+    margin: 10px;
+    text-align: center;
+    opacity: 100%;
 }
