@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(30, 30, 30);
+    background-color: rgb(35, 35, 35);
 }
 button,
     #hmbt{
@@ -24,42 +24,38 @@ nav{
 
 }
 .welcome{
-    background-color: #3c2e33;
+    background-color: #ffffff;
     margin: 0 auto;
 }
 
 form{
-    font-family: 'Trebuchet MS';
-    font-size: 18px;
-    color: white;
-    background-color: rgb(14, 59, 75);
-    border: none;
-    border-radius: 100px;
+    margin-top: 100px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: rgba(255, 255, 255, 0.2)0px 7px 29px 0px;
     text-align: center;
-    padding: 100;
-    width: auto;
-    margin: 20;
-    height: auto;
-    opacity: 100%;
-}
-#field{
-    color: rgb(255, 255, 255);
-
+    padding-left: 0 auto;
+    padding-right: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 #sub{
-    background-color: #9f838d;;
-    border: none;
-    border-radius: 10px;
+    border-width: 1px;
+    border-radius: 3px;
     margin-top: 10px;
-    margin-bottom: auto;
+    padding: 10px;
 }
 #fname, #lname, #email, #comments{
-    background-color: #9f838d;
-    border-width: 1px;
-    border-radius: 14px;
-    padding: 5px;
-    font-weight: bold;
-    margin: 10px;
-    text-align: center;
+    background-color: #ffffff;
+    border-width: 2px;
+    border-color: rgb(210, 210, 210);
+    border-radius: 6px;
     opacity: 100%;
+    font-family: 'Times New Roman';
+    color: black;
+    margin-top: 10px;
+    padding: 10px;
+}
+#sub:hover{
+    color: blue;
 }
