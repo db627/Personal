@@ -1,63 +1,65 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Resume</title>
-    <div><link rel="stylesheet" href="style.css"></div>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  </head>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <!--Heading-->
+<body>
 <header style="text-align: center;">
     <div class="welcome">
         <h1 style="color: pink;">RESUME</h1>
     </div>
 </header>
 <!--Navigation-->
-<nav>
-    <button type="button" class="hmbt" style="border: none; text-decoration: none; margin-left: auto; "><a href="homepage.html">Home</a></button>
-    <button type="button" class="hmbt" style="border: none; text-decoration: none; margin-left: 10px;"><a href="test.html" style="color: white;">Resume</a></button>
-    <button type="button" class="hmbt" style="margin-left: 10px;"><a href="projects.html" style="color: white;">Projects</a></button>
-    <button type="button" class="hmbt" ; style="margin-right: auto; margin-left: 10px;" style="position: center;"><a href="contact.html" style="color: white;" >Contact</a></button>
-    <button type="button" class="hmbt" ; style="margin-right: auto; margin-left: 10px;" style="position: center;"><a href="services.html" style="color: white;" >Services</a></button>
-</nav>
-<!--Body 1-->
-<body class="top">
-    <div class="slide-right">
-    <div class="section">
-        <div class="text">
-            <h1 id="hi">Hi, I am Dennis Boguslavskiy</h1>
+<nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="homepage.html">Home</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="resume.html">Resume</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="experience.html">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown link
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="slide-right">
+    <div class="mt-4 p-5 text-white" id="top-name">
+        <h1 id="hi">Hi, I am Dennis Boguslavskiy</h1>
             <h3>Phone: 732-207-8234</h3>
             <h3>Email: dennisboguslavskiy@gmail.com</h3>
-            <p>
-        </div>
-        <img src="carimg22.jpg" alt="dennispic" style="width: 60%; height: 50%; margin-left: 100px;">
-        </p>
-    </div>
-    </div>
-</body>
-
-
-<!--
-<!-- style="color:rgb(205, 77, 92);"
-<body>
-    <div>
-        <div class="hd1" style="text-align: left" style="margin-left: auto" style="margin-right: auto" style="padding-bottom: 0 ">
-            <h1 class="head2 " style="color: rgb(57, 57, 57)">Hi, I am Dennis Boguslavskiy</h1>
-            <img src="" alt="" style="padding-left: 500px;">
-            <p style="font-size: 18px;" style="padding-top: 0;" style="color: rgb(57, 57, 57)">Phone: +1 732-207-8234</p>
-            <p style="font-size: 18px;" style="padding-top: 0;" style="padding-bottom: 0;" style="color: rgb(57, 57, 57)"> Email: dennisboguslavskiy@gmail.com</p>
-            <div id="im1">
-                <img src="IMG_5196.JPG" alt="Dennis"  style="width: 80%; height: 80%;" id="img1">
-                <style>
-                    .im1{
-                      align-items: right;  
-                    }
-                </style>
-            </div>  
-    </div>
-    </div>
--->
+            <h3><a href="https://www.linkedin.com/in/dennis-boguslavskiy-93a544254/" style="color: white;">Linkedin</a></h3>
+            <img src="carimg22.jpg" alt="" height="100%">
+      </div>
+    <!--Resume-->
     <div class="container2">
         <h2>Skills</h2>
         <p class="ht">HTML <br id="percentage">70%<br></p>
@@ -93,13 +95,20 @@
     -->
         <h2 style="font-size:22px;">Experience</h2>
         <ol>
-            <li><strong>Self Employed </strong>-Contractor for Social Media Marketing/Management</li>
+            <li><strong>Self Employed </strong>-Contractor for Social Media Marketing/Management at GadyaMedia</li>
                 <ul>
                     <li>Oversaw creation of content for social media channels.</li>
                     <li>Scheduled and Posted content to different social media channels.</li>
                     <li>Analyzed and Communicated results to clientel.</li>
                     <li>Implemented different strategies to grow social media channels for clientel.</li>
                 </ul>
+            <li><strong>Self-Employed</strong> - Social Media Manager and Social Media Marketer, M&M Entities, Marlboro NJ, December 2021- August 2022</li>
+            <ul>
+                <li>Oversaw creation of content for various social media channels.</li>
+                <li>Scheduled and posted content to different social media channels</li>
+                <li>Implemented social media strategy to increase traffic and generate sales.</li>
+                <li>Created and oversaw Facebook Ads</li>
+            </ul>
             <li><strong>Lifeguard: </strong>Digmense Ferry, PA   June 2020 - August 2020, June 2021 - August 2021</li>
                 <ul>
                     <li>Communicated with team to ensure safe enviornment</li>
@@ -116,5 +125,13 @@
                 </ul>
         </ol>
     </div>
+
+    <footer>
+        <div>
+            <a href="">Privacy</a>
+            <a href="">FAQ</a>
+            <p>&copy; Dennis Boguslavskiy 2022 IS117 035</p>
+        </div>
+    </footer>
 </body>
 </html>
